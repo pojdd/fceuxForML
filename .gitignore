@@ -1,32 +1,42 @@
-# Prerequisites
-*.d
+/vc/defaultconfig/scmrev.h
+/vc/.vs
+/vc/vc14_bin_Debug
+/vc/vc14_obj_Debug
+/vc/vc14_obj_Release
+/vc/vc14_obj_PublicRelease
+/vc/vc10_bin_Debug
+/vc/vc10_obj_Debug
+/vc/vc10_obj_Release
+/vc/vc10_obj_PublicRelease
+/vc/x64
+/vc/*.user
+/vc/*.sdf
+/vc/*.opensdf
+/vc/*.suo
+/vc/ipch
+/output/auxlib.lua
+/output/fceux.pdb
+/output/7z.dll
+/output/fceux.exe
+/output/fceux.exp
+/output/fceux.lib
+/output/fceux.cfg
+/output/sav/*.sav
+/output/fcs/*.fc*
+/vc/userconfig/scmrev.h
+/vc/fceux.zip
+/vc/fceux64.zip
 
-# Compiled Object files
-*.slo
-*.lo
+# linux build output
+bin
+src/fceux
+fceux-net-server
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+.sconf_temp/
+.sconsign.dblite
+.deps
+.dirstamp
+/output/movies
+/output/cheats
+/output/snaps
+/output/sav
